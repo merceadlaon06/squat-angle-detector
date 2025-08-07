@@ -16,3 +16,5 @@ python squat_angle_detector.py
 
 Press \`q\` to quit the webcam view.
 
+Version 0.0.2
+
