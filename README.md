@@ -17,15 +17,15 @@ This project uses **MediaPipe** and **OpenCV** to track arm positions via a webc
 
 ## Requirements
 Install dependencies with:
-'''bash
+```bash
 pip install opencv-python mediapipe
-'''
+```
 
 ## Usage
 Run the script with:
-'''bash
-python bicep_curl_counter.py
-'''
+```bash
+python bicep_curl_angle_detection.py
+```
 
 Controls:
 - Press 'q' to quit the program.
@@ -35,8 +35,5 @@ Controls:
 - **Repetition Logic**: Counters increment when arm angle is below 45° and resets when fully extended (above ~150°).
 - **Form Feedback**: Helps ensure correct curl movement.
 
-## Example Output
-- 'Left Angle: 42 Degrees (Good curl) | Reps: 5'
-- 'Right Angle: 47 Degrees (curl more) | Reps: 3'
-- 'Both Arms Reps: 2'
+
 
